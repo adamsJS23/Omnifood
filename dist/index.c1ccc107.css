@@ -1,0 +1,174 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  color: #555;
+  font-family: rubik, sans-serif, Tahoma;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+.grid {
+  gap: 9.6rem 6.4rem;
+  display: grid;
+}
+
+.grid:not(:last-child) {
+  margin-bottom: 9.6rem;
+}
+
+.grid-align-v {
+  align-items: center;
+}
+
+.grid-align- {
+  justify-content: center;
+}
+
+.grid--2--cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3--cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4--cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.heading-primary, .heading-secondary, .heading-tertiary {
+  color: #333;
+  color: #45260a;
+  letter-spacing: -.5px;
+  font-weight: 700;
+}
+
+.heading-primary {
+  margin-bottom: 3.5rem;
+  font-size: 5.2rem;
+  line-height: 1.05;
+}
+
+.heading-secondary {
+  margin-bottom: 9.6rem;
+  font-size: 4.4rem;
+  line-height: 1.2;
+}
+
+.heading-tertiary {
+  margin-bottom: 3.2rem;
+  font-size: 3rem;
+  line-height: 1.2;
+}
+
+.subheading {
+  color: #cf711f;
+  text-transform: uppercase;
+  letter-spacing: .75px;
+  margin-bottom: 1.6rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  display: block;
+}
+
+.btn, .btn:link, .btn:visited {
+  cursor: pointer;
+  border: none;
+  border-radius: 9px;
+  padding: 1.6rem 3.2rem;
+  font-size: 2rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all .3s;
+  display: inline-block;
+}
+
+.btn-full:link, .btn-full:visited {
+  color: #fff;
+  background-color: #e67e22;
+}
+
+.btn-full:hover, .btn-full:active {
+  background-color: #cf711f;
+}
+
+.btn-outline:link, .btn-outline:visited {
+  color: #555;
+  background-color: #fff;
+}
+
+.btn-outline:hover, .btn-outline:active {
+  background-color: #fae5d3;
+  box-shadow: inset 0 0 0 3px #fff;
+}
+
+.btn-form {
+  color: #fae5d3;
+  background-color: #45260a;
+  align-self: end;
+  padding: 1.2rem;
+}
+
+.btn-form:hover {
+  color: #555;
+  background-color: #fff;
+}
+
+:focus {
+  outline: none;
+  box-shadow: 0 0 0 .8rem #a1510a80;
+}
+
+.list {
+  flex-direction: column;
+  gap: 2rem;
+  list-style: none;
+  display: flex;
+}
+
+.list-item {
+  align-items: center;
+  gap: 1.6rem;
+  font-size: 1.6rem;
+  line-height: 1.6;
+  display: flex;
+}
+
+.list-icon {
+  width: 3rem;
+  height: 3rem;
+  color: #cf711f;
+}
+
+.margin-right-sm {
+  margin-right: 1.6rem !important;
+}
+
+.margin-bottom-md {
+  margin-bottom: 4.8rem !important;
+}
+
+.center-text {
+  text-align: center;
+}
+
+strong {
+  font-weight: 500;
+}
+
+/*# sourceMappingURL=index.c1ccc107.css.map */
