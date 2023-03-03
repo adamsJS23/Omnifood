@@ -70,7 +70,6 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #555;
-
   /* overflow-x:hidden works if there is no thing absolutely positioned in relation to body */
   /* overflow-x: hidden; */
 }
